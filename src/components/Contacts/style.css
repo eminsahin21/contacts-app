@@ -1,0 +1,81 @@
+body{
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#my-container {
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 750px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 0.2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.72) 0px 3px 8px;
+
+}
+
+input{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: larger;
+    color: black;
+}
+
+ul,li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list > li {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: left;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#kisisayisi {
+    float: left;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin-left: 5px;
+}
